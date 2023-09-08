@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img.png/bowsercastle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    background-color: white;
+    margin-top: 0;
+}
+
+
+

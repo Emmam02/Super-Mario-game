@@ -1,0 +1,87 @@
+*{
+    font-family: 'Gill Sans',sans-serif;
+
+}
+
+body {
+    background-image: url("imgPeachFight/arena\ -\ Copy.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#headliners {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px, 100px, 400px;
+    justify-content: center;
+    align-items: center;
+}
+#player1 {
+    font-size: x-large;
+    font-weight: 900;
+    background-color: rgb(255, 251, 251);
+    border: 2px solid  rgb(179, 22, 22) ;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+}
+
+#player2 {
+    font-size: x-large;
+    font-weight: 900;
+    background-color: rgb(255, 251, 251);
+    border: 2px solid  rgb(179, 22, 22) ;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: -1;
+    
+    
+}
+
+#vs {
+   grid-column-start: 2, ;
+   grid-column-end: 3;
+   grid-row-start: 1;
+   display: grid;
+   justify-items: center;
+   
+}
+#peachHP {
+    background-color: rgb(179, 22, 22);
+    font-weight: 900;
+    font-size: x-large;
+    text-align: center; 
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+#bowserHP {
+    background-color: rgb(179, 22, 22);
+    font-weight: 900;
+    font-size: x-large;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: -1;
+    
+} 
+
+#peachImage {
+    font-weight: 900;
+    font-size: x-large;
+    text-align: center; 
+    grid-column-start: 1;
+    margin-top: 30%;
+    cursor: pointer;
+}
+
+#bowserImage {
+    font-weight: 900;
+    font-size: x-large;
+    text-align: center;
+    grid-column-start: 3;
+    margin-top: 20%;
+    cursor: pointer;
+    
+}
